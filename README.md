@@ -1,6 +1,6 @@
 # 📚 🐣 Firewall Installer Raspbian
 
-<img src="images/miscellany-icon.png" width="25%" align="right" />
+<img src="images/firewall.png" width="25%" align="right" />
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 

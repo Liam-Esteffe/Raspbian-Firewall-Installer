@@ -20,11 +20,11 @@ RASPBIAN 🥤
 Install firewall with different steps
 
 ```bash
-  ./firewall step1
+  ./firewall install
   
    -> The code execute here is to install depiencies
 
-  ./firewall step2
+  ./firewall configure
 
    -> configure the iptables and the DNS server
 ```

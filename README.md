@@ -2,9 +2,7 @@
 
 <img src="images/miscellany-icon.png" width="25%" align="right" />
 
-[![知识共享协议（CC协议）](https://img.shields.io/badge/License-Creative%20Commons-FE6B3A.svg?logo=apache) ![Licence: CC BY-NC-SA 4.0](images/LICENSE.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)  
-[![GitHub stars](https://img.shields.io/github/stars/oldratlee/software-practice-miscellany.svg?style=social&label=Star)](https://github.com/oldratlee/software-practice-miscellany/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/oldratlee/software-practice-miscellany.svg?style=social&label=Fork)](https://github.com/software-practice-miscellany/software-practice-miscellany/fork)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 Installer for firewall rules and iptables
 
@@ -13,3 +11,51 @@ Installer for firewall rules and iptables
 - DNS server configuration & installer
 
 RASPBIAN 🥤
+
+
+
+
+## Installation
+
+Install firewall with different steps
+
+```bash
+  ./firewall step1
+  
+   -> The code execute here is to install depiencies
+
+  ./firewall step2
+
+   -> configure the iptables and the DNS server
+```
+
+## Configuration
+
+Configure firewall with different scripts
+
+```bash
+    ./udhcp.sh
+  
+   -> The code execute here is to restart the udhcp server
+
+  ./firewall_script_exec.sh
+
+   -> configure the iptables and make it persisent
+```
+
+## To have more
+
+On Raspbian you can install webmin to check your firewall utilisation and stats
+
+For that you can install and configure it with
+
+```bash
+    ./webmin.sh
+```
+
+
+
+## Authors
+
+- [@ZeroJnr](https://www.github.com/Liam-Esteffe)
+
